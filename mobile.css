@@ -73,3 +73,49 @@ img{
     background-color: #8d965b;
     display: none;
 }
+
+.search > form{
+    display: flex;
+}
+
+input[type="search"] {
+    flex-basis: 80%;
+    padding: 12px 5px;
+    border: 1px solid #ccc;
+    border-right: none;
+    -webkit-appearance: none;
+}
+
+button[type="submit"] {
+    flex-basis: 20%;
+    background-color: #4caf50;
+    border:none;
+    color: #fff;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    max-width: 400px;
+    padding: 5px;
+}
+
+.loginLinks {
+    flex: 0;
+}
+
+.burgerMenu{
+    flex: 0;
+    padding: 13px 11px 0 11px;
+}
+
+.logo{
+    flex: 1;
+}
+
+.search {
+    flex-basis: 100%;
+}

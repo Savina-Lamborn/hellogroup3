@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 header,
 .mainContent,
 .row {
  max-width: 1200px;
  padding: 0 5px;
- margin: auto;
+ margin: auto; 
 }
 
 .mainNav{
@@ -56,12 +56,3 @@ main{
 .burgerMenu{
     display: none;
 }
-=======
-header,
-.mainContent,
-.row {
- max-width: 1200px;
- padding: 0 5px;
- margin: auto;
-}
->>>>>>> a87794ae8481036a8f563097c219ada3cdb9b4c5
