@@ -1,3 +1,8 @@
+@media(min-width: 721px) and (max-width: 1122px){
+    h1{
+        color: #f00;
+    }
+}
 
 header,
 .mainContent,
@@ -55,4 +60,30 @@ main{
 
 .burgerMenu{
     display: none;
+}
+
+.logo{
+    padding: 5px 0px;
+    flex-basis: 85%;
+    position: relative;
+}
+
+.logo img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.loginLinks {
+    flex-basis: 15%;
+}
+
+.search {
+    padding: 5px 0;
+    flex-basis: 40%;
+}
+
+header{
+    justify-content: flex-end;
+    padding: 0 0 0 5px;
 }
